@@ -2,14 +2,21 @@ body{
  background-color: lightgrey;
   margin-top:40px;
 }
+*{
+  color:grey;
+}
+ul1{
+  color: black;
+  width: 30%;
+}
 h1{
   color : grey;
   text-align:center;
 }
 img{
-   display: block;
-    margin: auto;
-margin-top : 15px;}
+ display: block;
+  margin: auto;
+  margin-top : 15px;}
 
 #quoteDisplay{text-align:center;
   font-style:italic;
@@ -24,17 +31,30 @@ p{text-align:center;
   color :grey;
 }
 ul {
-  width: 10%;
+  width: 40%;
+  color : grey;
+    margin: auto;
+}
+li1 {
+  width: 50%;
   color : grey;
     margin: auto;
 }
 .c{
   text-align: center;
 }
+.test{
+  width: 100%;
+  margin:auto;
+}
 li{
+  padding-left: 2px;
   font-size:14px;
 }
 .buttons {
-  width:450px;
+  width:100px;
+  height: 30px;
   margin:auto;
+  background: lightgrey;
+  border-color: grey;
   display:block;}
