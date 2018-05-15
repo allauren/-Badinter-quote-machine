@@ -5,19 +5,16 @@ body{
 *{
   color:grey;
 }
-ul1{
-  color: black;
-  width: 30%;
+h1{text-align:center;
 }
-h1{
-  color : grey;
-  text-align:center;
-}
-img{
- display: block;
+img{ display: block;
   margin: auto;
+  text-align: center;
   margin-top : 15px;}
 
+.small{ font-size:18px;
+  text-align:center;
+}
 #quoteDisplay{text-align:center;
   font-style:italic;
   font-size:20px;
@@ -26,30 +23,31 @@ img{
 button{
   color: :lightgrey;
 }
-p{text-align:center;
+p{
   font-size:20px;
-  color :grey;
+}
+.text{
+  margin-top :5px;
+  margin-bottom: 5px;
+  font-size: 14px;
 }
 ul {
-  width: 40%;
-  color : grey;
-    margin: auto;
+  width: 60%;
+  margin: auto;
 }
-li1 {
-  width: 50%;
-  color : grey;
-    margin: auto;
+li{
+  margin-bottom: 15px;
+  margin-top: 10px;
 }
 .c{
   text-align: center;
 }
 .test{
   width: 100%;
-  margin:auto;
 }
 li{
   padding-left: 2px;
-  font-size:14px;
+  font-size:16px;
 }
 .buttons {
   width:100px;
